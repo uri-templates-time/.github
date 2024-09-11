@@ -1,12 +1,25 @@
-## Hi there 👋
+# URI-templates
 
-<!--
+Repository of tools and tests for URI templates.
 
-**Here are some ideas to get you started:**
+Specification: https://github.com/hapi-server/uri-templates/wiki/Specification
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Wiki Page: https://github.com/hapi-server/uri-templates/wiki
+
+The files `formatting.json` and `parsing.json` can be used to run unit tests on code that implements the specification.
+
+A useful time utilities library, TimeUtil.java, is found at https://github.com/hapi-server/client-java/blob/master/src/org/hapiserver/TimeUtil.java 
+and its use is shown in unit tests at https://github.com/hapi-server/uri-templates/blob/master/UriTemplatesJava/test/org/hapiserver/TimeUtilTest.java.
+
+Here is a list of implementations of the specification:
+
+| Name<br>Notes | Language | URL |
+| ------------- | -------- | --- |
+| URI_Templates Java<br>reference implementation | Java     | https://github.com/hapi-server/uri-templates/tree/master/UriTemplatesJava <br> https://cottagesystems.com/hapi/uri_templates/doc/ |
+| Autoplot Aggregation<br>nearly complete for spec | Java  | https://autoplot.org/ |
+| URI_Templates JavaScript | JavaScript | https://github.com/hapi-server/uri-templates/tree/master/UriTemplatesJavaScript |
+| URI_Templates Python | Python | https://github.com/hapi-server/uri-templates/tree/master/UriTemplatesPython |
+| URI_Templates IDL | IDL | Coming soon, Java bridge could be used as well. |
+| URI_Templates Matlab | Matlab | This could be done as well, Java bridge could be used as well. |
+
+Note this project is not associated with https://github.com/uri-templates.  It is in the process of migrating from https://github.com/hapi-server/uri-templates.
