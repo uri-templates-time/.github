@@ -1,6 +1,11 @@
 # URI-templates
 
-Repository of tools and tests for URI templates.
+URI-templates are what we call the convention for encoding times within a formatted string, typically the
+names of data files or images.  For example the file 2024-09-17.dat is understood using the URI template $Y-$m-$d.dat
+to represent the data collected on September 17, 2024.
+
+This is a repository of tools and tests for URI templates.  Reference implementations are provided for Java, JavaScript, and
+Python.
 
 Specification: https://github.com/uri-templates-time/uri-templates/wiki/Specification
 
