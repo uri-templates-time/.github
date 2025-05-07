@@ -1,26 +1,21 @@
-# URI-templates
+# URI Templates Time
 
-URI-templates are what we call the convention for encoding times within a formatted string, typically the
-names of data files or images.  For example the file 2024-09-17.dat is understood using the URI template $Y-$m-$d.dat
-to represent the data collected on September 17, 2024.  While this simple example could be handled with the unix
-date command, this specification supports various odd cases found in Space Physics data handling.
+[URI Templates Time](https://github.com/uri-templates-time/specification) is a standard for encoding times within a formatted string, typically the
+names of data files or images.  For example, the file `2024-09-17.dat` is understood using the URI template `$Y-$m-$d.dat`
+to represent the data collected on September 17, 2024.  While this simple example could be handled with the Unix
+date command, this specification supports various odd cases in Space Physics data handling.
 
-This is a repository of tools and tests for URI templates.  Reference implementations are provided for Java, JavaScript, and
+This is a repository of tools and tests for URI templates. Native reference implementations are available in Java, JavaScript, and
 Python.
 
-Specification: https://github.com/uri-templates-time/specification
+Implementations of the specification can be used in:
 
-Here is a list of implementations of the specification:
+| Language | URL |
+| ------------- | -------- |
+| Java     | [repository](https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesJava) [docs](https://cottagesystems.com/hapi/uri_templates/doc/) |
+| JavaScript | [repository](https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesJavaScript) |
+| Python | [repository](https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesPython) |
+| IDL | Native code in progress (Java bridge could be used instead). |
+| MATLAB | No native code planned, but [MATLAB/Java](https://www.mathworks.com/help/matlab/using-java-libraries-in-matlab.html) interface could be used. |
 
-| Name<br>Notes | Language | URL |
-| ------------- | -------- | --- |
-| URI_Templates Java<br>reference implementation | Java     | https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesJava <br> https://cottagesystems.com/hapi/uri_templates/doc/ |
-| Autoplot Aggregation<br>nearly complete for spec | Java  | https://autoplot.org/ |
-| URI_Templates JavaScript | JavaScript | https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesJavaScript |
-| URI_Templates Python | Python | https://github.com/uri-templates-time/uri-templates/tree/master/UriTemplatesPython |
-| URI_Templates IDL | IDL | Coming soon, Java bridge could be used as well. |
-| URI_Templates Matlab | Matlab | This could be done as well, Java bridge could be used as well. |
-
-Note this project is not associated with https://github.com/uri-templates.  This was once located at https://github.com/hapi-server/uri-templates.
-
-
+A nearly complete implementation is used in [Autoplot](https://autoplot.org/).
