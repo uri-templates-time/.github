@@ -8,11 +8,7 @@ date command, this specification supports various odd cases found in Space Physi
 This is a repository of tools and tests for URI templates.  Reference implementations are provided for Java, JavaScript, and
 Python.
 
-Specification: https://github.com/uri-templates-time/uri-templates/wiki/Specification
-
-Wiki Page: https://github.com/uri-templates-time/uri-templates/wiki
-
-The files `formatting.json` and `parsing.json` can be used to run unit tests on code that implements the specification.
+Specification: https://github.com/uri-templates-time/specification
 
 A useful time utilities library, TimeUtil.java, is found at https://github.com/hapi-server/client-java/blob/master/src/org/hapiserver/TimeUtil.java 
 and its use is shown in unit tests at https://github.com/uri-templates-time/uri-templates/blob/master/UriTemplatesJava/test/org/hapiserver/TimeUtilTest.java.
@@ -29,3 +25,5 @@ Here is a list of implementations of the specification:
 | URI_Templates Matlab | Matlab | This could be done as well, Java bridge could be used as well. |
 
 Note this project is not associated with https://github.com/uri-templates.  This was once located at https://github.com/hapi-server/uri-templates.
+
+The files `formatting.json` and `parsing.json` can be used to run unit tests on code that implements the specification.
